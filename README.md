@@ -1,4 +1,6 @@
-from selenium import webdriver
+# Данный автотест имитирует поведение пользователя на сайте интернет-магазина Saucedemo. Тест включает в себя авторизацию, добавление товаров в корзину, заполнение формы для оформления заказа и извлечение итоговой стоимости. Он предназначен для проверки работоспособности интефейса магазина и корректности процесса оформления заказа.
+
+```from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
